@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left,#db4e4e,#95fd95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* anime box design */
+
+.container{
+    background-color: #f5f3f3;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+/* button design */
+
+.btn{
+    background-color: #91f783;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    box-shadow:5px 5px 3px #242323;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* button disable when response coming from api */
+
+.btn:disabled{
+    background-color: gray;
+    cursor:not-allowed;
+}
+
+/* anime image desige */
+
+.anime-img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 10px 10px #201f1f;
+}
+
+/* anime artist name design bottom */
+
+.anime-name{
+    background-color: #91f783;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* display property none before click button */
+
+.anime-main{
+    display: none;
+}
